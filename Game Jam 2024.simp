@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="14.70" multi-file="no" uid="simpfe9955362f454b5ca8d3f183e43751b9" creation-date="11/02/2024 15:32:26">
+  <meta>
+    <name>Game Jam 2024</name>
+    <authors>Christian Dieckmann</authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names />
+    <entity-ids />
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields />
+  </counters>
+  <alias-groups />
+  <management uid="md-e35de41b1d354042acfb1077c9b1cef4" name="" task-id-sequence="0">
+    <persons>
+      <person id="">
+        <first-name>Christian</first-name>
+        <last-name>Dieckmann</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-ca65b9ebe0a94cfbaf27ff973ac85b3b" name="" order-index="-1" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <parameters />
+      <types />
+    </custom-types>
+  </types>
+  <items />
+  <models>
+    <model id="p62ff791db31644d7a80df92852c38eb2_112078533" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author>Christian Dieckmann</author>
+        </authors>
+        <description />
+        <creation-date>11/02/2024 15:33:30</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p6e2e0dde5e1246bcb45f38ab4e16192c_741949073" name="ClassDiagram1" order-index="1" uid="" name-style="" auto-routed-paths="false" default-line-style="default">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author>Christian Dieckmann</author>
+          </authors>
+          <description />
+          <creation-date>11/02/2024 15:33:30</creation-date>
+          <change-date>11/02/2024 15:33:30</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items />
+        <layer id="93ae3c2dd60a4de2a6d4e4929cfe506e" name="Default" visible="true" enabled="true" locked="false" />
+      </diagram>
+    </model>
+  </models>
+</sim-project>

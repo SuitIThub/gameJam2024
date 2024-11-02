@@ -6,15 +6,42 @@
     <description />
   </meta>
   <counters models="1">
-    <entity-names />
-    <entity-ids />
+    <entity-names>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>7</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>8</value>
+      </counter>
+      <counter>
+        <item-type type-id="generalization" type="Generalization" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>20</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="Association" />
+        <value>2</value>
+      </counter>
+    </entity-ids>
     <diagrams>
       <counter>
         <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
         <value>1</value>
       </counter>
     </diagrams>
-    <fields />
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>21</value>
+      </counter>
+    </fields>
   </counters>
   <alias-groups />
   <management uid="md-e35de41b1d354042acfb1077c9b1cef4" name="" task-id-sequence="0">
@@ -43,10 +70,1922 @@
     </type-sets>
     <custom-types>
       <parameters />
-      <types />
+      <types>
+        <type id="Symbol" name="Symbol" />
+        <type id="Enum" name="Enum" />
+        <type id="Class:c124bf011149478bb785bceb901cf4ea" name="ManaWeight" class-ref="c124bf011149478bb785bceb901cf4ea" />
+        <type id="Class:62cc7928c0b74d1490f6c2ef34ac3ce3" name="Mana" class-ref="62cc7928c0b74d1490f6c2ef34ac3ce3" />
+        <type id="Class:1d685086bc504b188da70940493b1a43" name="Rune" class-ref="1d685086bc504b188da70940493b1a43" />
+        <type id="Float" name="Float" />
+      </types>
     </custom-types>
   </types>
-  <items />
+  <style-set name="Test">
+    <colors>
+      <color name="Color1" argb="#FF203D85" />
+      <color name="Color2" argb="#FFEB6662" />
+      <color name="Color3" argb="#FFF7D37E" />
+      <color name="Color4" argb="#FF82C881" />
+      <color name="Color5" argb="#FFF7B172" />
+      <color name="LightColor1" argb="#FF5A7DB8" />
+      <color name="LightColor2" argb="#FFF5A19B" />
+      <color name="LightColor3" argb="#FFFBE8B3" />
+      <color name="LightColor4" argb="#FFB6E2B5" />
+      <color name="LightColor5" argb="#FFFBD4AA" />
+      <color name="DarkColor1" argb="#FF132B6D" />
+      <color name="DarkColor2" argb="#FFA92300" />
+      <color name="DarkColor3" argb="#FFD8B866" />
+      <color name="DarkColor4" argb="#FF69AE68" />
+      <color name="DarkColor5" argb="#FFD8995B" />
+      <color name="ComplementColor1" argb="#FFF7D37E" />
+      <color name="ComplementColor2" argb="#FF82C881" />
+      <color name="ComplementColor3" argb="#FF203D85" />
+      <color name="ComplementColor4" argb="#FFEB6662" />
+      <color name="ComplementColor5" argb="#FF1D8F94" />
+      <color name="Black" argb="#FF2A2A2A" />
+      <color name="White" argb="#FFFFFFFF" />
+      <color name="Gray" argb="#FFBFBFBF" />
+      <color name="Red" argb="#FFEB6662" />
+      <color name="Green" argb="#FF82C881" />
+      <color name="Blue" argb="#FF203D85" />
+      <color name="Yellow" argb="#FFF7D37E" />
+      <color name="Cyan" argb="#FF1D8F94" />
+      <color name="Magenta" argb="#FFD500D5" />
+      <color name="Orange" argb="#FFF7B172" />
+      <color name="Background" argb="#FFE9E9E9" />
+      <color name="Foreground" argb="#FF2A2A2A" />
+      <color name="Highlight" argb="#FFF7D37E" />
+      <color name="Emphasis" argb="#FF203D85" />
+      <color name="Warning" argb="#FFF7D37E" />
+      <color name="Error" argb="#FFEB6662" />
+      <color name="Success" argb="#FF82C881" />
+    </colors>
+    <default-style>
+      <style-definition style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </default-style>
+    <style class="Flat Blue">
+      <style-definition style-name="Flat Blue" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#FFFFFF" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#FFFFFF" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#FFFFFF" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#FFFFFF" font="Segoe UI;9;I" />
+        <background type="solid" colors="#203D85,#5A7DB8" />
+        <border color="#132B6D" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#000000" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#000000" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#000000" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#000000" font="Segoe UI;9;I" />
+            <background type="solid" colors="#A6B1CE,#BDCBE3" />
+            <border color="#A1AAC5" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Flat Cyan">
+      <style-definition style-name="Flat Cyan" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#1D8F94,#56BFC2" />
+        <border color="#11767B" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+            <background type="solid" colors="#A5D2D4,#BBE5E7" />
+            <border color="#A0C8CA" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Flat Green">
+      <style-definition style-name="Flat Green" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#82C881,#B6E2B5" />
+        <border color="#69AE68" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+            <background type="solid" colors="#CDE9CD,#E2F3E1" />
+            <border color="#C3DFC3" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Flat Yellow">
+      <style-definition style-name="Flat Yellow" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F7D37E,#FBE8B3" />
+        <border color="#D8B866" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+            <background type="solid" colors="#FCEDCB,#FDF6E1" />
+            <border color="#EFE3C2" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Flat Orange">
+      <style-definition style-name="Flat Orange" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F7B172,#FBD4AA" />
+        <border color="#D8995B" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+            <background type="solid" colors="#FCE0C7,#FDEEDD" />
+            <border color="#EFD6BD" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Flat Red">
+      <style-definition style-name="Flat Red" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#EB6662,#F5A19B" />
+        <border color="#CE4F4B" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+            <background type="solid" colors="#F7C2C0,#FBD9D7" />
+            <border color="#EBB9B7" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Flat White">
+      <style-definition style-name="Flat White" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#E9E9E9,#FFFFFF" />
+        <border color="#2A2A2A" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#D5D5D5" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#D5D5D5" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#D5D5D5" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#D5D5D5" font="Segoe UI;9;I" />
+            <background type="solid" colors="#5D5D5D,#666666" />
+            <border color="#111111" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Flat Light Blue">
+      <style-definition style-name="Flat Light Blue" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#000000" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#000000" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#000000" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#000000" font="Segoe UI;9;I" />
+        <background type="solid" colors="#5A7DB8,#5A7DB8" />
+        <border color="#132B6D" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#FFFFFF" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#FFFFFF" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#FFFFFF" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#FFFFFF" font="Segoe UI;9;I" />
+            <background type="solid" colors="#132B6D" />
+            <border color="#132B6D" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Flat Light Cyan">
+      <style-definition style-name="Flat Light Cyan" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#56BFC2,#56BFC2" />
+        <border color="#11767B" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#D5D5D5" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#D5D5D5" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#D5D5D5" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#D5D5D5" font="Segoe UI;9;I" />
+            <background type="solid" colors="#11767B" />
+            <border color="#11767B" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Flat Light Green">
+      <style-definition style-name="Flat Light Green" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#B6E2B5,#B6E2B5" />
+        <border color="#69AE68" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+            <background type="solid" colors="#69AE68" />
+            <border color="#69AE68" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Flat Light Yellow">
+      <style-definition style-name="Flat Light Yellow" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#FBE8B3,#FBE8B3" />
+        <border color="#D8B866" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+            <background type="solid" colors="#D8B866" />
+            <border color="#D8B866" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Flat Light Orange">
+      <style-definition style-name="Flat Light Orange" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#FBD4AA,#FBD4AA" />
+        <border color="#D8995B" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+            <background type="solid" colors="#D8995B" />
+            <border color="#D8995B" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Flat Light Red">
+      <style-definition style-name="Flat Light Red" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F5A19B,#F5A19B" />
+        <border color="#CE4F4B" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+            <background type="solid" colors="#CE4F4B" />
+            <border color="#CE4F4B" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Flat Light White">
+      <style-definition style-name="Flat Light White" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#FFFFFF,#FFFFFF" />
+        <border color="#2A2A2A" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#D5D5D5" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#D5D5D5" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#D5D5D5" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#D5D5D5" font="Segoe UI;9;I" />
+            <background type="solid" colors="#2A2A2A" />
+            <border color="#2A2A2A" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Blue White Bold">
+      <style-definition style-name="Blue White Bold" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#000000" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#000000" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#000000" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#000000" font="Segoe UI;9;I" />
+        <background type="solid" colors="#FFFFFF,#5A7DB8" />
+        <border color="#132B6D" width="4" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#FFFFFF" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#FFFFFF" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#FFFFFF" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#FFFFFF" font="Segoe UI;9;I" />
+            <background type="solid" colors="#132B6D" />
+            <border color="#132B6D" width="4" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Cyan White Bold">
+      <style-definition style-name="Cyan White Bold" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#FFFFFF,#56BFC2" />
+        <border color="#11767B" width="4" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#D5D5D5" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#D5D5D5" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#D5D5D5" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#D5D5D5" font="Segoe UI;9;I" />
+            <background type="solid" colors="#11767B" />
+            <border color="#11767B" width="4" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Green White Bold">
+      <style-definition style-name="Green White Bold" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#FFFFFF,#B6E2B5" />
+        <border color="#69AE68" width="4" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+            <background type="solid" colors="#69AE68" />
+            <border color="#69AE68" width="4" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Yellow White Bold">
+      <style-definition style-name="Yellow White Bold" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#FFFFFF,#FBE8B3" />
+        <border color="#D8B866" width="4" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+            <background type="solid" colors="#D8B866" />
+            <border color="#D8B866" width="4" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Orange White Bold">
+      <style-definition style-name="Orange White Bold" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#FFFFFF,#FBD4AA" />
+        <border color="#D8995B" width="4" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+            <background type="solid" colors="#D8995B" />
+            <border color="#D8995B" width="4" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Red White Bold">
+      <style-definition style-name="Red White Bold" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#FFFFFF,#F5A19B" />
+        <border color="#CE4F4B" width="4" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+            <background type="solid" colors="#CE4F4B" />
+            <border color="#CE4F4B" width="4" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Bold Light Blue">
+      <style-definition style-name="Bold Light Blue" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#000000" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#000000" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#000000" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#000000" font="Segoe UI;9;I" />
+        <background type="solid" colors="#5A7DB8,#5A7DB8" />
+        <border color="#132B6D" width="4" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#FFFFFF" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#FFFFFF" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#FFFFFF" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#FFFFFF" font="Segoe UI;9;I" />
+            <background type="solid" colors="#132B6D" />
+            <border color="#132B6D" width="4" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Bold Light Cyan">
+      <style-definition style-name="Bold Light Cyan" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#56BFC2,#56BFC2" />
+        <border color="#11767B" width="4" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#D5D5D5" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#D5D5D5" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#D5D5D5" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#D5D5D5" font="Segoe UI;9;I" />
+            <background type="solid" colors="#11767B" />
+            <border color="#11767B" width="4" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Bold Light Green">
+      <style-definition style-name="Bold Light Green" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#B6E2B5,#B6E2B5" />
+        <border color="#69AE68" width="4" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+            <background type="solid" colors="#69AE68" />
+            <border color="#69AE68" width="4" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Bold Light Yellow">
+      <style-definition style-name="Bold Light Yellow" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#FBE8B3,#FBE8B3" />
+        <border color="#D8B866" width="4" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+            <background type="solid" colors="#D8B866" />
+            <border color="#D8B866" width="4" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Bold Light Orange">
+      <style-definition style-name="Bold Light Orange" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#FBD4AA,#FBD4AA" />
+        <border color="#D8995B" width="4" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+            <background type="solid" colors="#D8995B" />
+            <border color="#D8995B" width="4" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Bold Light Red">
+      <style-definition style-name="Bold Light Red" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F5A19B,#F5A19B" />
+        <border color="#CE4F4B" width="4" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+            <background type="solid" colors="#CE4F4B" />
+            <border color="#CE4F4B" width="4" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Bold Light White">
+      <style-definition style-name="Bold Light White" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#FFFFFF,#FFFFFF" />
+        <border color="#2A2A2A" width="4" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#D5D5D5" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#D5D5D5" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#D5D5D5" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#D5D5D5" font="Segoe UI;9;I" />
+            <background type="solid" colors="#000000,#000000" />
+            <border color="#D5D5D5" width="4" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Bold Blue">
+      <style-definition style-name="Bold Blue" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#FFFFFF" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#FFFFFF" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#FFFFFF" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#FFFFFF" font="Segoe UI;9;I" />
+        <background type="solid" colors="#203D85,#5A7DB8" />
+        <border color="#132B6D" width="4" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#FFFFFF" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#FFFFFF" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#FFFFFF" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#FFFFFF" font="Segoe UI;9;I" />
+            <background type="solid" colors="#0D1835,#24324A" />
+            <border color="#08112C" width="4" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Bold Cyan">
+      <style-definition style-name="Bold Cyan" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#1D8F94,#56BFC2" />
+        <border color="#11767B" width="4" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#D5D5D5" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#D5D5D5" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#D5D5D5" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#D5D5D5" font="Segoe UI;9;I" />
+            <background type="solid" colors="#0C393B,#224C4E" />
+            <border color="#072F31" width="4" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Bold Green">
+      <style-definition style-name="Bold Green" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#82C881,#B6E2B5" />
+        <border color="#69AE68" width="4" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#D5D5D5" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#D5D5D5" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#D5D5D5" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#D5D5D5" font="Segoe UI;9;I" />
+            <background type="solid" colors="#345034,#495A48" />
+            <border color="#2A462A" width="4" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Bold Yellow">
+      <style-definition style-name="Bold Yellow" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F7D37E,#FBE8B3" />
+        <border color="#D8B866" width="4" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#D5D5D5" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#D5D5D5" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#D5D5D5" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#D5D5D5" font="Segoe UI;9;I" />
+            <background type="solid" colors="#635432,#645D48" />
+            <border color="#564A29" width="4" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Bold Orange">
+      <style-definition style-name="Bold Orange" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F7B172,#FBD4AA" />
+        <border color="#D8995B" width="4" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#D5D5D5" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#D5D5D5" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#D5D5D5" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#D5D5D5" font="Segoe UI;9;I" />
+            <background type="solid" colors="#63472E,#645544" />
+            <border color="#563D24" width="4" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Bold Red">
+      <style-definition style-name="Bold Red" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#EB6662,#F5A19B" />
+        <border color="#CE4F4B" width="4" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#D5D5D5" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#D5D5D5" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#D5D5D5" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#D5D5D5" font="Segoe UI;9;I" />
+            <background type="solid" colors="#5E2927,#62403E" />
+            <border color="#52201E" width="4" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Bold White">
+      <style-definition style-name="Bold White" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#E9E9E9,#FFFFFF" />
+        <border color="#2A2A2A" width="4" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#D5D5D5" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#D5D5D5" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#D5D5D5" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#D5D5D5" font="Segoe UI;9;I" />
+            <background type="solid" colors="#161616,#000000" />
+            <border color="#D5D5D5" width="4" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Glossy Radial Blue">
+      <style-definition style-name="Glossy Radial Blue" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" gloss-effect="rounded" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#FFFFFF" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#FFFFFF" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#FFFFFF" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#FFFFFF" font="Segoe UI;9;I" />
+        <background type="radial" colors="#203D85,#5A7DB8" />
+        <border color="#132B6D" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" gloss-effect="rounded" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#FFFFFF" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#FFFFFF" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#FFFFFF" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#FFFFFF" font="Segoe UI;9;I" />
+            <background type="radial" colors="#0D1835,#24324A" />
+            <border color="#08112C" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Glossy Radial Cyan">
+      <style-definition style-name="Glossy Radial Cyan" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" gloss-effect="rounded" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="radial" colors="#1D8F94,#56BFC2" />
+        <border color="#11767B" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" gloss-effect="rounded" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#D5D5D5" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#D5D5D5" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#D5D5D5" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#D5D5D5" font="Segoe UI;9;I" />
+            <background type="radial" colors="#0C393B,#224C4E" />
+            <border color="#072F31" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Glossy Radial Green">
+      <style-definition style-name="Glossy Radial Green" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" gloss-effect="rounded" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="radial" colors="#82C881,#B6E2B5" />
+        <border color="#69AE68" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" gloss-effect="rounded" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#D5D5D5" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#D5D5D5" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#D5D5D5" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#D5D5D5" font="Segoe UI;9;I" />
+            <background type="radial" colors="#345034,#495A48" />
+            <border color="#2A462A" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Glossy Radial Yellow">
+      <style-definition style-name="Glossy Radial Yellow" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" gloss-effect="rounded" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="radial" colors="#F7D37E,#FBE8B3" />
+        <border color="#D8B866" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" gloss-effect="rounded" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#D5D5D5" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#D5D5D5" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#D5D5D5" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#D5D5D5" font="Segoe UI;9;I" />
+            <background type="radial" colors="#635432,#645D48" />
+            <border color="#564A29" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Glossy Radial Orange">
+      <style-definition style-name="Glossy Radial Orange" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" gloss-effect="rounded" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="radial" colors="#F7B172,#FBD4AA" />
+        <border color="#D8995B" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" gloss-effect="rounded" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#D5D5D5" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#D5D5D5" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#D5D5D5" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#D5D5D5" font="Segoe UI;9;I" />
+            <background type="radial" colors="#63472E,#645544" />
+            <border color="#563D24" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Glossy Radial Red">
+      <style-definition style-name="Glossy Radial Red" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" gloss-effect="rounded" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="radial" colors="#EB6662,#F5A19B" />
+        <border color="#CE4F4B" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" gloss-effect="rounded" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#D5D5D5" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#D5D5D5" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#D5D5D5" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#D5D5D5" font="Segoe UI;9;I" />
+            <background type="radial" colors="#5E2927,#62403E" />
+            <border color="#52201E" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Glossy Radial White">
+      <style-definition style-name="Glossy Radial White" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" gloss-effect="rounded" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="radial" colors="#D4D4D4,#FFFFFF" />
+        <border color="#2A2A2A" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" gloss-effect="rounded" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#D5D5D5" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#D5D5D5" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#D5D5D5" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#D5D5D5" font="Segoe UI;9;I" />
+            <background type="radial" colors="#555555,#666666" />
+            <border color="#111111" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Glossy Blue">
+      <style-definition style-name="Glossy Blue" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" gloss-effect="flat" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#FFFFFF" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#FFFFFF" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#FFFFFF" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#FFFFFF" font="Segoe UI;9;I" />
+        <background type="vertical-linear" colors="#203D85,#5A7DB8" />
+        <border color="#132B6D" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" gloss-effect="flat" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#FFFFFF" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#FFFFFF" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#FFFFFF" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#FFFFFF" font="Segoe UI;9;I" />
+            <background type="vertical-linear" colors="#0D1835,#24324A" />
+            <border color="#08112C" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Transparent">
+      <style-definition style-name="Transparent" shadow-type="smooth" shadow-offset="2,2" shadow-color="#32000000" wrap-name-text="true" wrap-other-text="true" padding="1" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#000000" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#000000" font="Segoe UI;9.75;" />
+        <text-style type="tagged-value" color="#1E1E1E" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#1E1E1E" font="Segoe UI;9;I" />
+        <background type="solid" colors="#00FFFFFF,#00FFFFFF" />
+        <border color="#000000" width="0" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-color="#32000000" wrap-name-text="true" wrap-other-text="true" padding="1" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#000000" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#000000" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#1E1E1E" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#1E1E1E" font="Segoe UI;9;I" />
+            <background type="solid" colors="#7E1E90FF,#87CEFA" />
+            <border color="#00008B" />
+            <label-connector color="#000000" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="C">
+      <style-definition style-name="C" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#80F7D37E,#80FBE8B3" />
+        <border color="#80D8B866" width="4" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#D5D5D5" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#D5D5D5" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#D5D5D5" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#D5D5D5" font="Segoe UI;9;I" />
+            <background type="solid" colors="#635432,#645D48" />
+            <border color="#564A29" width="4" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="B">
+      <style-definition style-name="B" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#8082C881,#80B6E2B5" />
+        <border color="#8069AE68" width="4" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#D5D5D5" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#D5D5D5" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#D5D5D5" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#D5D5D5" font="Segoe UI;9;I" />
+            <background type="solid" colors="#345034,#495A48" />
+            <border color="#2A462A" width="4" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="D">
+      <style-definition style-name="D" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#8036A2D9,#8091CFF2" />
+        <border color="#80659ECF" width="4" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#D5D5D5" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#D5D5D5" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#D5D5D5" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#D5D5D5" font="Segoe UI;9;I" />
+            <background type="solid" colors="#3B506E,#415874" />
+            <border color="#2B3C55" width="4" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="E">
+      <style-definition style-name="E" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#8080238D,#80B861F1" />
+        <border color="#806E1A8B" width="4" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#D5D5D5" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#D5D5D5" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#D5D5D5" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#D5D5D5" font="Segoe UI;9;I" />
+            <background type="solid" colors="#56278D,#673AB6" />
+            <border color="#4B237A" width="4" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="A">
+      <style-definition style-name="A" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#80EB6662,#80F5A19B" />
+        <border color="#80CE4F4B" width="4" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#D5D5D5" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#D5D5D5" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#D5D5D5" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#D5D5D5" font="Segoe UI;9;I" />
+            <background type="solid" colors="#5E2927,#62403E" />
+            <border color="#52201E" width="4" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Glossy Green">
+      <style-definition style-name="Glossy Green" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" gloss-effect="flat" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="vertical-linear" colors="#82C881,#B6E2B5" />
+        <border color="#69AE68" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" gloss-effect="flat" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#D5D5D5" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#D5D5D5" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#D5D5D5" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#D5D5D5" font="Segoe UI;9;I" />
+            <background type="vertical-linear" colors="#345034,#495A48" />
+            <border color="#2A462A" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Glossy Yellow">
+      <style-definition style-name="Glossy Yellow" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" gloss-effect="flat" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="vertical-linear" colors="#F7D37E,#FBE8B3" />
+        <border color="#D8B866" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" gloss-effect="flat" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#D5D5D5" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#D5D5D5" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#D5D5D5" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#D5D5D5" font="Segoe UI;9;I" />
+            <background type="vertical-linear" colors="#635432,#645D48" />
+            <border color="#564A29" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Glossy Orange">
+      <style-definition style-name="Glossy Orange" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" gloss-effect="flat" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="vertical-linear" colors="#F7B172,#FBD4AA" />
+        <border color="#D8995B" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" gloss-effect="flat" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#D5D5D5" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#D5D5D5" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#D5D5D5" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#D5D5D5" font="Segoe UI;9;I" />
+            <background type="vertical-linear" colors="#63472E,#645544" />
+            <border color="#563D24" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Glossy Red">
+      <style-definition style-name="Glossy Red" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" gloss-effect="flat" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="vertical-linear" colors="#EB6662,#F5A19B" />
+        <border color="#CE4F4B" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" gloss-effect="flat" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#D5D5D5" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#D5D5D5" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#D5D5D5" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#D5D5D5" font="Segoe UI;9;I" />
+            <background type="vertical-linear" colors="#5E2927,#62403E" />
+            <border color="#52201E" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Glossy Cyan">
+      <style-definition style-name="Glossy Cyan" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" gloss-effect="flat" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="vertical-linear" colors="#1D8F94,#56BFC2" />
+        <border color="#11767B" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" gloss-effect="flat" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#D5D5D5" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#D5D5D5" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#D5D5D5" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#D5D5D5" font="Segoe UI;9;I" />
+            <background type="vertical-linear" colors="#0C393B,#224C4E" />
+            <border color="#072F31" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Error">
+      <style-definition style-name="Error" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#32000000" wrap-name-text="true" wrap-other-text="true" padding="1" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#000000" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#000000" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#000000" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#000000" font="Segoe UI;9;I" />
+        <background type="solid" colors="#D25332,#EBEBEB" />
+        <border color="#A92300" width="3" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-color="#32000000" wrap-name-text="true" wrap-other-text="true" padding="1" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#000000" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#000000" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#1E1E1E" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#1E1E1E" font="Segoe UI;9;I" />
+            <background type="solid" colors="#A92300,#87CEFA" />
+            <border color="#A92300" />
+            <label-connector color="#000000" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="ColorCode1">
+      <style-definition style-name="ColorCode1" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#EB6662,#F5A19B" />
+        <border color="#CE4F4B" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+            <background type="solid" colors="#F7C2C0,#FBD9D7" />
+            <border color="#EBB9B7" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="ColorCode2">
+      <style-definition style-name="ColorCode2" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F7D37E,#FBE8B3" />
+        <border color="#D8B866" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+            <background type="solid" colors="#FCEDCB,#FDF6E1" />
+            <border color="#EFE3C2" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="ColorCode3">
+      <style-definition style-name="ColorCode3" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#82C881,#B6E2B5" />
+        <border color="#69AE68" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+            <background type="solid" colors="#CDE9CD,#E2F3E1" />
+            <border color="#C3DFC3" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="ColorCode4">
+      <style-definition style-name="ColorCode4" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F7B172,#FBD4AA" />
+        <border color="#D8995B" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+            <background type="solid" colors="#FCE0C7,#FDEEDD" />
+            <border color="#EFD6BD" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="ColorCode5">
+      <style-definition style-name="ColorCode5" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#1D8F94,#56BFC2" />
+        <border color="#11767B" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+            <background type="solid" colors="#A5D2D4,#BBE5E7" />
+            <border color="#A0C8CA" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="ColorCode6">
+      <style-definition style-name="ColorCode6" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#FFFFFF" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#FFFFFF" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#FFFFFF" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#FFFFFF" font="Segoe UI;9;I" />
+        <background type="solid" colors="#203D85,#5A7DB8" />
+        <border color="#132B6D" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#000000" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#000000" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#000000" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#000000" font="Segoe UI;9;I" />
+            <background type="solid" colors="#A6B1CE,#BDCBE3" />
+            <border color="#A1AAC5" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="ColorCode7">
+      <style-definition style-name="ColorCode7" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#E9E9E9,#FFFFFF" />
+        <border color="#2A2A2A" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#D5D5D5" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#D5D5D5" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#D5D5D5" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#D5D5D5" font="Segoe UI;9;I" />
+            <background type="solid" colors="#5D5D5D,#666666" />
+            <border color="#111111" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style>
+      <item-type stereotype="technology" />
+      <style-definition style-name="" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#B6E2B5,#B6E2B5" />
+        <border color="#69AE68" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+            <background type="solid" colors="#69AE68" />
+            <border color="#69AE68" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style>
+      <item-type stereotype="application" />
+      <style-definition style-name="" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#56BFC2,#56BFC2" />
+        <border color="#11767B" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#D5D5D5" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#D5D5D5" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#D5D5D5" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#D5D5D5" font="Segoe UI;9;I" />
+            <background type="solid" colors="#11767B" />
+            <border color="#11767B" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style>
+      <item-type stereotype="business" />
+      <style-definition style-name="" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#FBE8B3,#FBE8B3" />
+        <border color="#D8B866" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+            <background type="solid" colors="#D8B866" />
+            <border color="#D8B866" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style>
+      <item-type stereotype="strategy" />
+      <style-definition style-name="" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#FBD4AA,#FBD4AA" />
+        <border color="#D8995B" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+            <background type="solid" colors="#D8995B" />
+            <border color="#D8995B" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style>
+      <item-type stereotype="implementation" />
+      <style-definition style-name="" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F5A19B,#F5A19B" />
+        <border color="#CE4F4B" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+            <background type="solid" colors="#CE4F4B" />
+            <border color="#CE4F4B" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style>
+      <item-type stereotype="motivation" />
+      <style-definition style-name="" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#000000" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#000000" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#000000" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#000000" font="Segoe UI;9;I" />
+        <background type="solid" colors="#5A7DB8,#5A7DB8" />
+        <border color="#132B6D" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#FFFFFF" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#FFFFFF" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#FFFFFF" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#FFFFFF" font="Segoe UI;9;I" />
+            <background type="solid" colors="#132B6D" />
+            <border color="#132B6D" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style>
+      <item-type stereotype="physical" />
+      <style-definition style-name="" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#B6E2B5,#B6E2B5" />
+        <border color="#69AE68" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+            <background type="solid" colors="#69AE68" />
+            <border color="#69AE68" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style>
+      <item-type type-id="comment" type="Comment" />
+      <style-definition style-name="" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#FBE8B3,#FBE8B3" />
+        <border color="#D8B866" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+            <background type="solid" colors="#D8B866" />
+            <border color="#D8B866" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Warning">
+      <style-definition style-name="Warning" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="solid" colors="#EB6662,#F5A19B" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+            <background type="solid" colors="#F7C2C0,#FBD9D7" />
+            <border color="#555555" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Blue Bold Outline">
+      <style-definition style-name="Blue Bold Outline" shadow-type="flat" shadow-offset="2,2" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#000000" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#000000" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#000000" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#000000" font="Segoe UI;9;I" />
+        <background type="none" colors="" />
+        <border color="#132B6D" width="4" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="flat" shadow-offset="2,2" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#FFFFFF" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#FFFFFF" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#FFFFFF" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#FFFFFF" font="Segoe UI;9;I" />
+            <background type="solid" colors="#132B6D" />
+            <border color="#132B6D" width="4" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Cyan Bold Outline">
+      <style-definition style-name="Cyan Bold Outline" shadow-type="flat" shadow-offset="2,2" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="none" colors="" />
+        <border color="#11767B" width="4" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="flat" shadow-offset="2,2" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#D5D5D5" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#D5D5D5" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#D5D5D5" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#D5D5D5" font="Segoe UI;9;I" />
+            <background type="solid" colors="#11767B" />
+            <border color="#11767B" width="4" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Green Bold Outline">
+      <style-definition style-name="Green Bold Outline" shadow-type="flat" shadow-offset="2,2" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="none" colors="" />
+        <border color="#69AE68" width="4" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="flat" shadow-offset="2,2" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+            <background type="solid" colors="#69AE68" />
+            <border color="#69AE68" width="4" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Yellow Bold Outline">
+      <style-definition style-name="Yellow Bold Outline" shadow-type="flat" shadow-offset="2,2" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="none" colors="" />
+        <border color="#D8B866" width="4" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="flat" shadow-offset="2,2" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+            <background type="solid" colors="#D8B866" />
+            <border color="#D8B866" width="4" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Orange Bold Outline">
+      <style-definition style-name="Orange Bold Outline" shadow-type="flat" shadow-offset="2,2" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="none" colors="" />
+        <border color="#D8995B" width="4" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="flat" shadow-offset="2,2" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+            <background type="solid" colors="#D8995B" />
+            <border color="#D8995B" width="4" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+    <style class="Red Bold Outline">
+      <style-definition style-name="Red Bold Outline" shadow-type="flat" shadow-offset="2,2" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+        <background type="none" colors="" />
+        <border color="#CE4F4B" width="4" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="flat" shadow-offset="2,2" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#2A2A2A" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#2A2A2A" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#2A2A2A" font="Segoe UI;9;I" />
+            <background type="solid" colors="#CE4F4B" />
+            <border color="#CE4F4B" width="4" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style-definition>
+    </style>
+  </style-set>
+  <items>
+    <item id="149b518e81b346a783efb65d990ca7c5" cid="PROP004" type="property" owner="c1141f103c8946d89ca26f2d8bcea04b" creator="" creation-date="11/02/2024 16:09:37" visibility="private">
+      <structural-feature type="ManaWeight" type-id="Class:c124bf011149478bb785bceb901cf4ea" />
+      <property aggregation="shared" />
+    </item>
+    <item id="b1cc9b7c83ea4bb8a5bed140f863f91f" cid="PROP005" type="property" owner="c1141f103c8946d89ca26f2d8bcea04b" creator="" creation-date="11/02/2024 16:09:37" visibility="private">
+      <structural-feature type="Rune" type-id="Class:1d685086bc504b188da70940493b1a43" />
+    </item>
+  </items>
   <models>
     <model id="p62ff791db31644d7a80df92852c38eb2_112078533" name="Model1" namespace="" order-index="1">
       <meta>
@@ -61,7 +2000,7 @@
       </meta>
       <abstract-items />
       <sub-models />
-      <diagram type="uml-class" id="p6e2e0dde5e1246bcb45f38ab4e16192c_741949073" name="ClassDiagram1" order-index="1" uid="" name-style="" auto-routed-paths="false" default-line-style="default">
+      <diagram type="uml-class" id="p6e2e0dde5e1246bcb45f38ab4e16192c_741949073" name="ManaCircle" order-index="1" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="334,-150">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -73,12 +2012,311 @@
           </authors>
           <description />
           <creation-date>11/02/2024 15:33:30</creation-date>
-          <change-date>11/02/2024 15:33:30</change-date>
+          <change-date>11/02/2024 16:09:37</change-date>
           <revision-count>0</revision-count>
           <version />
         </meta>
-        <abstract-items />
-        <layer id="93ae3c2dd60a4de2a6d4e4929cfe506e" name="Default" visible="true" enabled="true" locked="false" />
+        <abstract-items>
+          <item id="0cb23895b20443a083999ecc3b541f8a" cid="PROP012" type="property" name="uid" owner="1d685086bc504b188da70940493b1a43" creator="" creation-date="11/02/2024 16:27:06" visibility="private" />
+          <item id="355a6636793b486c8eb9bd55669d59eb" cid="PROP017" type="property" name="manaSpeed" owner="62cc7928c0b74d1490f6c2ef34ac3ce3" creator="" creation-date="11/02/2024 17:29:52" visibility="private">
+            <structural-feature type="Float" type-id="Float" />
+          </item>
+          <item id="ae73e48bd4364961ae50bd9a345d2bee" cid="PROP009" type="property" name="shiftCost" owner="2bd90ba1576a4f078baede3a4e64d9f2" creator="" creation-date="11/02/2024 16:19:08" visibility="private">
+            <structural-feature type="Float" type-id="Float" />
+          </item>
+          <item id="fed5028f30094d8d85e86f5de86bb67f" cid="PROP010" type="property" name="splitRatio" owner="3e1f8f975dd84c2f99be159fe3758844" creator="" creation-date="11/02/2024 16:19:31" visibility="private">
+            <structural-feature type="Float" type-id="Float" />
+          </item>
+          <item id="9a2493c8e415464c8cacf298069f021e" cid="PROP011" type="property" name="manaCache" owner="1d685086bc504b188da70940493b1a43" creator="" creation-date="11/02/2024 16:24:13" visibility="private">
+            <structural-feature type="Mana" type-id="Class:62cc7928c0b74d1490f6c2ef34ac3ce3" />
+          </item>
+          <item id="0e7544a95c2043fda7876698b6742792" cid="GNR001" type="generalization" creator="" creation-date="11/02/2024 16:00:05" from="cee9630cf9974d0ba1af919925fa8d01" to="1d685086bc504b188da70940493b1a43" visibility="package" />
+          <item id="16b69fe04dca403791207e336e70cc39" cid="PROP018" type="property" name="element" owner="62cc7928c0b74d1490f6c2ef34ac3ce3" creator="" creation-date="11/02/2024 17:30:16" visibility="private">
+            <structural-feature type="Enum" type-id="Enum" />
+          </item>
+          <item id="2bd90ba1576a4f078baede3a4e64d9f2" cid="C007" type="class" name="ShiftManaRune" creator="" creation-date="11/02/2024 16:01:57">
+            <owned-items />
+            <attributes>
+              <attribute id="af138e55004ca4d018a9a09da1119c2bf439" cid="PROP009" name="shiftCost" creation-date="11/02/2024 16:19:08" property-ref="ae73e48bd4364961ae50bd9a345d2bee" />
+            </attributes>
+            <operations>
+              <operation id="o73a5a920ea89454698c5ce02f75c9687191" cid="OP013" name="ShiftManaRune" creation-date="11/02/2024 16:34:41" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pf35fdffa26ff49e4801aa098cfd43593" name="shiftCost" type="Float" type-id="Float" creation-date="11/02/2024 16:34:41">
+                    <tagged-values>
+                      <tagged-value id="tvccbb30a503b04b76bd262bc0d0e4942f" name="set_shiftCost" type="reference" multiple="false" hidden="false" ref="ae73e48bd4364961ae50bd9a345d2bee" />
+                    </tagged-values>
+                  </parameter>
+                </parameters>
+                <stereotypes>
+                  <stereotype>create</stereotype>
+                </stereotypes>
+              </operation>
+            </operations>
+          </item>
+          <item id="a0ca104ecaf94d36aec9ce3e97eaf6bb" cid="GNR004" type="generalization" creator="" creation-date="11/02/2024 16:01:57" from="2bd90ba1576a4f078baede3a4e64d9f2" to="1d685086bc504b188da70940493b1a43" visibility="package" />
+          <item id="4a3378d41c224dfbb80cfd8df943e9ef" cid="PROP014" type="property" name="flowCapacity" owner="1d685086bc504b188da70940493b1a43" creator="" creation-date="11/02/2024 16:38:00" visibility="private" />
+          <item id="c5f7fb22d8264314af01aac210251e1e" cid="PROP013" type="property" name="uid" owner="c124bf011149478bb785bceb901cf4ea" creator="" creation-date="11/02/2024 16:27:27" visibility="private" />
+          <item id="3e1f8f975dd84c2f99be159fe3758844" cid="C005" type="class" name="SplitManaRune" creator="" creation-date="11/02/2024 16:00:32">
+            <owned-items />
+            <attributes>
+              <attribute id="a8c06cc5fdcc94fecbe76b3d273f651a4897" cid="PROP010" name="splitRatio" creation-date="11/02/2024 16:19:31" property-ref="fed5028f30094d8d85e86f5de86bb67f" />
+            </attributes>
+            <operations>
+              <operation id="obed5a392f73f4fc0bc3077d5aa040158564" cid="OP014" name="SplitManaRune" creation-date="11/02/2024 16:34:54" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p269049e2d978468d86d2c143f4a6fd07" name="splitRatio" type="Float" type-id="Float" creation-date="11/02/2024 16:34:54">
+                    <tagged-values>
+                      <tagged-value id="tvdbb97999c2134b408c9c504372c539f6" name="set_splitRatio" type="reference" multiple="false" hidden="false" ref="fed5028f30094d8d85e86f5de86bb67f" />
+                    </tagged-values>
+                  </parameter>
+                </parameters>
+                <stereotypes>
+                  <stereotype>create</stereotype>
+                </stereotypes>
+              </operation>
+            </operations>
+          </item>
+          <item id="30bb8e830c3841dca1f1d8e40c1b3153" cid="PROP019" type="property" name="properties" owner="62cc7928c0b74d1490f6c2ef34ac3ce3" creator="" creation-date="11/02/2024 17:37:44" visibility="private">
+            <structural-feature multiplicity="*" type="Enum" type-id="Enum" />
+          </item>
+          <item id="d2724f7925a74141b65dbf22d97d3f27" cid="PROP003" type="property" name="paths" owner="1d685086bc504b188da70940493b1a43" creator="" creation-date="11/02/2024 16:07:35" visibility="private">
+            <structural-feature multiplicity="*" type="ManaWeight" type-id="Class:c124bf011149478bb785bceb901cf4ea" />
+          </item>
+          <item id="f808efb45b6b487884cdd71b351a19d4" cid="C006" type="class" name="MergeManaRune" creator="" creation-date="11/02/2024 16:00:44">
+            <operations>
+              <operation id="o92989bebd8ec4150be05a48515886bd876" cid="OP019" name="Merge Mana Rune" creation-date="11/02/2024 16:38:21" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p86f7a795b3784bba9a65d4f096ebe94d" name="flowCapacity" type="Integer" type-id="Uml.Integer" creation-date="11/02/2024 16:38:34" />
+                </parameters>
+                <stereotypes>
+                  <stereotype>create</stereotype>
+                </stereotypes>
+              </operation>
+            </operations>
+          </item>
+          <item id="7e4a518cba7c4df181ef01457835a31d" cid="PROP016" type="property" name="manaStrength" owner="62cc7928c0b74d1490f6c2ef34ac3ce3" creator="" creation-date="11/02/2024 17:29:41" visibility="private">
+            <structural-feature type="Float" type-id="Float" />
+          </item>
+          <item id="a19ef8d10e70458187cbca04107444d2" cid="GNR003" type="generalization" creator="" creation-date="11/02/2024 16:00:44" from="f808efb45b6b487884cdd71b351a19d4" to="1d685086bc504b188da70940493b1a43" visibility="package" />
+          <item id="1d685086bc504b188da70940493b1a43" cid="C002" type="class" name="Rune" creator="" creation-date="11/02/2024 15:59:04">
+            <owned-items />
+            <attributes>
+              <attribute id="a29c654c201a240299a1536f9e0362fe7405" cid="PROP012" name="uid" creation-date="11/02/2024 16:27:06" property-ref="0cb23895b20443a083999ecc3b541f8a" />
+              <attribute id="aa381a21d67d44ac58e87567bedf5f257706" cid="PROP001" name="symbol" creation-date="11/02/2024 16:02:41" property-ref="536b858c418840a1a3c5a68d0b596a97" />
+              <attribute id="a01aae12f66f14c87af97f9c036822e07437" cid="PROP002" name="level" creation-date="11/02/2024 16:03:12" property-ref="261a33df3d3c4a2b8b68535f409bf3b9" />
+              <attribute id="a2f964a1114704bbababb02b374c906e145" cid="PROP003" name="paths" creation-date="11/02/2024 16:07:35" property-ref="d2724f7925a74141b65dbf22d97d3f27" />
+              <attribute id="afc3af00ee3b744fd8d3eca7c4670ca47243" cid="PROP011" name="manaCache" creation-date="11/02/2024 16:24:13" property-ref="9a2493c8e415464c8cacf298069f021e" />
+              <attribute id="a9375c72cdcef4dee80be300b06b0a7e6297" cid="PROP014" name="flowCapacity" creation-date="11/02/2024 16:38:00" property-ref="4a3378d41c224dfbb80cfd8df943e9ef" />
+            </attributes>
+            <operations>
+              <operation id="o903c1526df4f47f3ba85c77413203c9b165" cid="OP011" name="Rune" creation-date="11/02/2024 16:31:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pc4fbcb37e9dd420b9c567f46310e8958" name="symbol" type="Enum" type-id="Enum" creation-date="11/02/2024 16:31:00">
+                    <tagged-values>
+                      <tagged-value id="tv82cb93a02a804feea0219e3a84bb5745" name="set_symbol" type="reference" multiple="false" hidden="false" ref="536b858c418840a1a3c5a68d0b596a97" />
+                    </tagged-values>
+                  </parameter>
+                  <parameter id="p19916ad586414cd1a689ff24b3589535" name="level" type="Integer" type-id="Uml.Integer" creation-date="11/02/2024 16:31:00">
+                    <tagged-values>
+                      <tagged-value id="tv4022203685a44b729f94223dd79adda8" name="set_level" type="reference" multiple="false" hidden="false" ref="261a33df3d3c4a2b8b68535f409bf3b9" />
+                    </tagged-values>
+                  </parameter>
+                </parameters>
+                <stereotypes>
+                  <stereotype>create</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="o7db7c0a6ec634fd28f0cfbef76bb2fe7263" cid="OP001" name="applyEffect" creation-date="11/02/2024 16:02:16" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pdd5e806db19c47339e92765be0668bf2" name="Mana" type="" type-id="" creation-date="11/02/2024 16:11:41" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o66a39c8399994b3babb5613e2c584efc699" cid="OP005" name="toNextRune" creation-date="11/02/2024 16:11:11" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p6e06e5a82b9a4db58a64442b4c3a28cf" name="Mana" type="" type-id="" creation-date="11/02/2024 16:12:05" />
+                </parameters>
+              </operation>
+              <operation id="o679cd827254048a2930165e0219124e747" cid="OP002" name="getSymbol" creation-date="11/02/2024 16:03:42" type="Symbol" type-id="Symbol" visibility="public" />
+              <operation id="o0ab38d45230e4ba7835703ebd9010dee106" cid="OP003" name="getLevel" creation-date="11/02/2024 16:03:49" type="Integer" type-id="Uml.Integer" visibility="public" />
+              <operation id="od774e31658244b1b8e5f1976ffc903e0320" cid="OP004" name="increaseLevel" creation-date="11/02/2024 16:03:57" type="" type-id="" visibility="public" />
+              <operation id="oef73196513554988bb94fa4d754013d7472" cid="OP015" name="enterRune" creation-date="11/02/2024 16:36:24" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p35b334c9e2644208b6de03a239e30548" name="Mana" type="" type-id="" creation-date="11/02/2024 16:36:31" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="62cc7928c0b74d1490f6c2ef34ac3ce3" cid="C001" type="class" name="Mana" creator="" creation-date="11/02/2024 15:58:55">
+            <owned-items />
+            <attributes>
+              <attribute id="a53252ca20317451f83872d759a8b68f0798" cid="PROP015" name="manaAmount" creation-date="11/02/2024 17:23:03" property-ref="5b8ae1a47e7543398cb595580704edd4" />
+              <attribute id="a566a86fa54f64ce28f87373f8b73b82d41" cid="PROP016" name="manaStrength" creation-date="11/02/2024 17:29:41" property-ref="7e4a518cba7c4df181ef01457835a31d" />
+              <attribute id="ad5006e75530c49318f982966265a47c4949" cid="PROP017" name="manaSpeed" creation-date="11/02/2024 17:29:52" property-ref="355a6636793b486c8eb9bd55669d59eb" />
+              <attribute id="aa63ed638e5b7405aa8064c82e0a46e8e427" cid="PROP018" name="element" creation-date="11/02/2024 17:30:16" property-ref="16b69fe04dca403791207e336e70cc39" />
+              <attribute id="a297257681b554aa28d7b4685cc429dcc557" cid="PROP019" name="properties" creation-date="11/02/2024 17:37:44" property-ref="30bb8e830c3841dca1f1d8e40c1b3153" />
+            </attributes>
+            <operations>
+              <operation id="o33a7c771dd3c4a35a0d4b8750a275ccf730" cid="OP020" name="applyMana" creation-date="11/02/2024 17:45:35" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p44a2f128a824436ea08af995eb590f79" name="Mana" type="" type-id="" creation-date="11/02/2024 17:48:27" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="cee9630cf9974d0ba1af919925fa8d01" cid="C004" type="class" name="ManaEffectRune" creator="" creation-date="11/02/2024 16:00:05">
+            <operations>
+              <operation id="o70d9ce0412494fb8862607df748c8205646" cid="OP012" name="ManaEffectRune" creation-date="11/02/2024 16:34:11" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p7b8d5d1100d94c6e8ed1d0c0c7a65a7e" name="manaCache" type="Mana" type-id="Class:62cc7928c0b74d1490f6c2ef34ac3ce3" creation-date="11/02/2024 16:34:21" />
+                </parameters>
+                <stereotypes>
+                  <stereotype>create</stereotype>
+                </stereotypes>
+              </operation>
+            </operations>
+          </item>
+          <item id="c1141f103c8946d89ca26f2d8bcea04b" cid="REL001" type="relationship" creator="" creation-date="11/02/2024 16:09:37" from="c124bf011149478bb785bceb901cf4ea" to="1d685086bc504b188da70940493b1a43" visibility="package">
+            <owned-items />
+            <relation from="c124bf011149478bb785bceb901cf4ea" to="1d685086bc504b188da70940493b1a43" derived="false">
+              <start-role id="umlar-79c5754f-e92a-468e-93ab-a152b9820f01" name="" navigability="" association-type="aggregation" visibility="private" property-ref="149b518e81b346a783efb65d990ca7c5" />
+              <end-role id="umlar-69479903-cc49-47c2-8ed1-2e42e4cdabc9" name="" navigability="" association-type="association" visibility="private" property-ref="b1cc9b7c83ea4bb8a5bed140f863f91f" />
+            </relation>
+          </item>
+          <item id="536b858c418840a1a3c5a68d0b596a97" cid="PROP001" type="property" name="symbol" owner="1d685086bc504b188da70940493b1a43" creator="" creation-date="11/02/2024 16:02:41" visibility="private">
+            <structural-feature type="Enum" type-id="Enum" />
+          </item>
+          <item id="f210c0459b914c57abef40344c709b43" cid="GNR002" type="generalization" creator="" creation-date="11/02/2024 16:00:32" from="3e1f8f975dd84c2f99be159fe3758844" to="2bd90ba1576a4f078baede3a4e64d9f2" visibility="package" />
+          <item id="c124bf011149478bb785bceb901cf4ea" cid="C003" type="class" name="ManaWeight" creator="" creation-date="11/02/2024 15:59:37">
+            <owned-items />
+            <attributes>
+              <attribute id="a879d9d08586349e393869f8f7245db20246" cid="PROP013" name="uid" creation-date="11/02/2024 16:27:27" property-ref="c5f7fb22d8264314af01aac210251e1e" />
+              <attribute id="ab98bffc95a9e4800b554aa65892bfbf4518" cid="PROP006" name="resistance" creation-date="11/02/2024 16:12:34" property-ref="e7cba075d72a43049b3c8ae6d36ebc5c" />
+              <attribute id="a5066e3af64df49cbaec4598b4be29a9c587" cid="PROP007" name="nextRune" creation-date="11/02/2024 16:13:39" property-ref="802abe1d6b6b41268840f79ccda2e800" />
+            </attributes>
+            <operations>
+              <operation id="of7192255c54546f28e2b376e2ccfc314238" cid="OP010" name="ManaWeight" creation-date="11/02/2024 16:30:14" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p7ac46e5577c048e1bb10aaac67166101" name="resistance" type="Float" type-id="Float" creation-date="11/02/2024 16:30:14">
+                    <tagged-values>
+                      <tagged-value id="tvca1af55c7e4e493aa1a8f95d4eb0835d" name="set_resistance" type="reference" multiple="false" hidden="false" ref="e7cba075d72a43049b3c8ae6d36ebc5c" />
+                    </tagged-values>
+                  </parameter>
+                </parameters>
+                <stereotypes>
+                  <stereotype>create</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="o5ae50b37e6bd44ac806718e60fe27e23623" cid="OP006" name="applyResistance" creation-date="11/02/2024 16:13:09" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p7e108e14f5964c21926acde68a3c26d2" name="Mana" type="" type-id="" creation-date="11/02/2024 16:13:26" />
+                </parameters>
+              </operation>
+              <operation id="o1754134b53c84803987b5df09c794213827" cid="OP007" name="toNextRune" creation-date="11/02/2024 16:13:29" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p50be68ab6b374f80b602b3802cb1fd32" name="Mana" type="" type-id="" creation-date="11/02/2024 16:13:36" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="e7cba075d72a43049b3c8ae6d36ebc5c" cid="PROP006" type="property" name="resistance" owner="c124bf011149478bb785bceb901cf4ea" creator="" creation-date="11/02/2024 16:12:34" visibility="private">
+            <structural-feature type="Float" type-id="Float" />
+          </item>
+          <item id="5b8ae1a47e7543398cb595580704edd4" cid="PROP015" type="property" name="manaAmount" owner="62cc7928c0b74d1490f6c2ef34ac3ce3" creator="" creation-date="11/02/2024 17:23:03" visibility="private">
+            <structural-feature type="Float" type-id="Float" />
+          </item>
+          <item id="802abe1d6b6b41268840f79ccda2e800" cid="PROP007" type="property" name="nextRune" owner="c124bf011149478bb785bceb901cf4ea" creator="" creation-date="11/02/2024 16:13:39" visibility="private">
+            <structural-feature type="Rune" type-id="Class:1d685086bc504b188da70940493b1a43" />
+          </item>
+          <item id="261a33df3d3c4a2b8b68535f409bf3b9" cid="PROP002" type="property" name="level" owner="1d685086bc504b188da70940493b1a43" creator="" creation-date="11/02/2024 16:03:12" visibility="private">
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+          </item>
+        </abstract-items>
+        <layer id="93ae3c2dd60a4de2a6d4e4929cfe506e" name="Default" visible="true" enabled="true" locked="false">
+          <item id="62cc7928c0b74d1490f6c2ef34ac3ce3" iid="e273cd598d17412b85117298982076e9" show-fields="true" creation-date="11/02/2024 15:58:55" order-index="0" type="entity">
+            <layout ax="748" ay="-117" awidth="140" aheight="160" x="748" y="-117" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="1d685086bc504b188da70940493b1a43" iid="88d166ce496545cca50287508523afec" show-fields="true" creation-date="11/02/2024 15:59:04" order-index="1" type="entity">
+            <layout ax="988" ay="143.5" awidth="291" aheight="286" x="988" y="143.5" width="195" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="c124bf011149478bb785bceb901cf4ea" iid="09fcce4529094710b4069028781ab50b" show-fields="true" creation-date="11/02/2024 15:59:37" order-index="2" type="entity">
+            <layout ax="1002.5" ay="-117" awidth="262" aheight="160" x="1002.5" y="-117" width="167.5" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="cee9630cf9974d0ba1af919925fa8d01" iid="b1480dac6b124c70ad2f3877fd0ad94f" creation-date="11/02/2024 16:00:05" order-index="3" type="entity">
+            <layout ax="582" ay="206.5" awidth="306" aheight="160" x="582" y="206.5" width="306" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="0e7544a95c2043fda7876698b6742792" iid="fb48f431e1644d0d8e393b539f4e0aca" creation-date="11/02/2024 16:00:05" order-index="4" type="relation">
+            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="888" y1="286" x2="988" y2="286" start-border-pos="0.37421875" end-border-pos="0.8754370629370629" name-position="0,20">
+              <points>
+                <point x="888" y="286" />
+                <point x="988" y="286" />
+              </points>
+            </layout>
+            <relation from="cee9630cf9974d0ba1af919925fa8d01" from-iid="b1480dac6b124c70ad2f3877fd0ad94f" to="1d685086bc504b188da70940493b1a43" to-iid="88d166ce496545cca50287508523afec" />
+          </item>
+          <item id="3e1f8f975dd84c2f99be159fe3758844" iid="15a45fbe676f4b76b4e46661e8d04283" creation-date="11/02/2024 16:00:32" order-index="5" type="entity">
+            <layout ax="1379" ay="530" awidth="140" aheight="160" x="1379" y="530" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="f210c0459b914c57abef40344c709b43" iid="8395436ea3fd44838df70a336bb6b63b" creation-date="11/02/2024 16:00:32" order-index="6" type="relation">
+            <layout line-style="oblique" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1379" y1="610" x2="1279" y2="610" start-border-pos="0.875" end-border-pos="0.375" end-local-pos="80" name-position="0,20">
+              <points>
+                <point x="1379" y="610" />
+                <point x="1279" y="610" />
+              </points>
+            </layout>
+            <relation from="3e1f8f975dd84c2f99be159fe3758844" from-iid="15a45fbe676f4b76b4e46661e8d04283" to="2bd90ba1576a4f078baede3a4e64d9f2" to-iid="6ef56749f0d548069c8f5d04c403475a" />
+          </item>
+          <item id="f808efb45b6b487884cdd71b351a19d4" iid="e624dee65b7343dab1e4a24e0ada78e7" creation-date="11/02/2024 16:00:44" order-index="7" type="entity">
+            <layout ax="1379" ay="206.5" awidth="326" aheight="160" x="1379" y="206.5" width="326" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="a19ef8d10e70458187cbca04107444d2" iid="b5c597f1dc8943b9ae225c8ebd8dec8e" creation-date="11/02/2024 16:00:44" order-index="8" type="relation">
+            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="1379" y1="286" x2="1279" y2="286" start-border-pos="0.87578125" end-border-pos="0.3745629370629371" name-position="0,20">
+              <points>
+                <point x="1379" y="286" />
+                <point x="1279" y="286" />
+              </points>
+            </layout>
+            <relation from="f808efb45b6b487884cdd71b351a19d4" from-iid="e624dee65b7343dab1e4a24e0ada78e7" to="1d685086bc504b188da70940493b1a43" to-iid="88d166ce496545cca50287508523afec" />
+          </item>
+          <item id="2bd90ba1576a4f078baede3a4e64d9f2" iid="6ef56749f0d548069c8f5d04c403475a" creation-date="11/02/2024 16:01:57" order-index="9" type="entity">
+            <layout ax="988" ay="530" awidth="291" aheight="160" x="988" y="530" width="291" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="a0ca104ecaf94d36aec9ce3e97eaf6bb" iid="4fa8cf1ef697411ca3de156d5792b5af" creation-date="11/02/2024 16:01:57" order-index="10" type="relation">
+            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="1134" y1="530" x2="1134" y2="430" start-border-pos="0.1254295532646048" end-border-pos="0.6245704467353952" name-position="0,20">
+              <points>
+                <point x="1134" y="530" />
+                <point x="1134" y="430" />
+              </points>
+            </layout>
+            <relation from="2bd90ba1576a4f078baede3a4e64d9f2" from-iid="6ef56749f0d548069c8f5d04c403475a" to="1d685086bc504b188da70940493b1a43" to-iid="88d166ce496545cca50287508523afec" />
+          </item>
+          <item id="c1141f103c8946d89ca26f2d8bcea04b" iid="2aa07e35bcff48c596d766beb5cdd8d8" creation-date="11/02/2024 16:09:37" order-index="11" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" start-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1134" y1="43" x2="1134" y2="144" start-border-pos="0.625" end-border-pos="0.12583892047405243" start-local-pos="70" end-local-pos="75" name-position="0,20">
+              <points>
+                <point x="1134" y="43" />
+                <point x="1134" y="144" />
+              </points>
+            </layout>
+            <relation from="c124bf011149478bb785bceb901cf4ea" from-iid="09fcce4529094710b4069028781ab50b" to="1d685086bc504b188da70940493b1a43" to-iid="88d166ce496545cca50287508523afec" />
+          </item>
+        </layer>
       </diagram>
     </model>
   </models>
